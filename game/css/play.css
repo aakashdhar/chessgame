@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+    
+    background-color: #EBEEE7 !important;
+}
+#container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+#board {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    margin-top:-120px;
+}
+#side {
+    font-family: helvetica, sans-serif;
+    padding: 10px;
+    width: 480px;
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+}
+.buttonpanel {
+    position: relative;
+    text-align: center;
+    margin: 5px;
+}
+#status {
+    margin: 5px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    position: relative;
+}
+#fenBox {
+    margin: 5px;
+    clear: left;
+    color:white;
+    background: black;
+    position: relative;
+    text-align: left;
+    border: 1px solid red;
+}
+
+#fen {
+    font-weight: lighter;
+    font-size: 10px;
+    overflow-x: visible;
+}
+#optionsBox {
+    text-align: center;
+}
+#pgnBox {
+    background: black;
+    color: white;
+    height: 330px;
+    width: 130px;
+    padding: 3px;
+    margin: 3px;
+    float:right;
+    position: relative;
+    text-align: left;
+    border: 1px solid red;
+}
+#pgn {
+    text-align: left;
+    overflow: auto;
+    font-weight: lighter;
+    font-size: 14px;
+    height: 260px;
+}
+
+#pgnBox span {
+    color: gray;
+}
+#gaugebox {
+    position: relative;
+    float: left;
+}
+#optionsBox {
+    text-align: left;
+}
+.user-header{
+  background-color: rgba(255,255,255,0.5);
+  padding:20px 0 ;
+  -webkit-box-shadow: 12px 10px 17px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 10px 17px -2px rgba(0,0,0,0.75);
+  box-shadow: 12px 10px 17px -2px rgba(0,0,0,0.75);
+}
+.header-title{
+    font-size: 2em;
+    color: #4c4c4c;
+    text-shadow: 4px 2px 2px rgba(150, 150, 150, 1);
+}
